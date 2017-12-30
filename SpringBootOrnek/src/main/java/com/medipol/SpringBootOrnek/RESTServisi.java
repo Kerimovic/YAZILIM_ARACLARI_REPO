@@ -17,7 +17,7 @@ public class RESTServisi {
 		return ogrenci;
 	}
 
-	@RequestMapping("/ogrenci/listele")
+	@RequestMapping("/ogrenci/list")
 	public List<Ogrenci> ogrenciListele() {
 		return OGRENCILER;
 	}
